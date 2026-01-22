@@ -1,7 +1,15 @@
 {
-  "functions": {
-    "api/bomb.js": {
-      "maxDuration": 30
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/bomber.js",
+      "use": "@vercel/node"
     }
-  }
+  ],
+  "routes": [
+    {
+      "src": "/api/bomber",
+      "dest": "/api/bomber.js"
+    }
+  ]
 }
