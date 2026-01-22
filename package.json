@@ -1,7 +1,9 @@
 {
-  "name": "sms-bomber-bd-vercel",
-  "version": "2.0.0",
-  "dependencies": {
-    "@vercel/node": "^3.2.7"
-  }
+  "name": "sms-bomber-bd",
+  "version": "2.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "dependencies": {}
 }
