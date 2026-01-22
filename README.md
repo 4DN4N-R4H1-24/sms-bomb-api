@@ -1,1 +1,5 @@
-# sms-bomb-api
+# BD SMS Bomber - Vercel
+
+## 🚀 Deploy
+```bash
+vercel --prod
